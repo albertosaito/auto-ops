@@ -1,11 +1,8 @@
-FROM node:alpine
+FROM node:9
 
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-
-# Install Yarn
-RUN npm install -f yarn
 
 # Copy package.json file
 COPY package.json /usr/src/app/
