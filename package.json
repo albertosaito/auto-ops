@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "babel-node lib/managers/async-manager.js --presets env,stage-2",
+    "start": "babel-node lib/endpoint/index.js --presets env,stage-2",
     "test": "jest"
   },
   "dependencies": {
