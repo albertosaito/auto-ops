@@ -17,4 +17,4 @@ COPY . /usr/src/app
 EXPOSE 8080
 
 # Run app
-CMD [ "yarn", "run", "endpoint" ]
+CMD [ "yarn", "run", "start" ]
